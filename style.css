@@ -266,6 +266,12 @@ h6{
     position: relative;
     z-index: 10;
 }
+#github{
+    font-size: 30px;
+    line-height: 60px;
+    position: relative;
+    z-index: 10;
+}
 .links a::after{
     content: '';
     width: 100%;
