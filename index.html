@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  
+<!--Links-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/9d4036eca1.js" crossorigin="anonymous"></script> 
+
+<!--links-->
+</head>
+<body>
+    <header>
+        <div class="logo"><b><< VARSHA >></b></div>
+        <div>
+            <span class="fas fa-menu"></span>
+        </div>
+        <div class="nav"> <ul class="nav-links">
+                <li><a href="#home" style="--clr:#1e9bff"><span>Home</span><i></i></a></li>
+                <li><a href="#about" style="--clr:#1e9bff"><span>About</span><i></i></a></li>
+                <li><a href="#skills" style="--clr:#1e9bff"><span>Skills</span><i></i></a></li>
+                <li><a href="#credentials" style="--clr:#1e9bff"><span>Credentials</span><i></i></a></li>
+                <li><a href="#contact" style="--clr:#1e9bff"><span>Contact</span><i></i></a></li>
+            </ul> </div>
+    </header>
+
+    <section id="home">
+        <div class="containr" >
+            <h1 id="hello">Hello,</h1>
+            <h2 id="ho">
+                I'm VARSHA ALAGESAN
+                <h3 id="f">FRESHER</h3>
+            </h2>
+        </div>
+    </section>
+                              
+    <section id="about">
+        <div class="containr" >
+            <h2 data-aos="fade-left" >ABOUT ME</h2>
+            <p id="para" data-aos="fade-left" data-aos-delay="300">
+                I am Varsha Alagesan, a BTech IT fresher graduating in 2023, <br>
+                I bring a potent combination of creativity, confidence, and talent to the table. <br>
+                With a strong determination to excel, I am poised to deliver top-notch performance for the company. <br>
+                Leveraging my skills and knowledge, I am eager to contribute to enhancing various aspects of the organization. <br>
+                My fresh perspective and enthusiasm, coupled with the learnings from my experiences, <br>
+                enable me to make significant improvements that benefit the company's growth and success.
+                </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="containr">
+            <div class="skill">
+            <h2 data-aos="fade-left">SKILLS</h2>
+            <!-- Your skills section content goes here -->
+          <ul id="skill-thing" data-aos="fade-left" data-aos-delay="500" style="list-style-type:none"> 
+            
+                <li><h4>Java </h4>
+                    <span class="bar"><span class="java"></span></span>
+                </li>
+                <li><h4>SQL </h4>
+                    <span class="bar"><span class="sql"></span></span></li>
+                <li><h4>PL/SQL </h4>
+                    <span class="bar"><span class="plsql"></span></span></li>
+                <li><h4>HTML </h4>
+                    <span class="bar"><span class="html"></span></span></li>
+                <li><h4>CSS </h4>
+                    <span class="bar"><span class="css"></span></span></li>
+                <li><h4>JavaScript </h4>
+                        <span class="bar"><span class="javascript"></span></span></li>    
+                <li><h4>UI/UX Design </h4>
+                        <span class="bar"><span class="uiux"></span></span></li>                  
+                
+          </div> 
+        </div>
+    </section>
+
+    <section id="credentials">
+        <div class="containr">
+            <h2 data-aos="fade-left">CREDENCIALS</h2>
+            <h6>[Click to view Certificates]</h6>
+            <!-- Contact form or contact information goes here -->
+            <div class="credgrid">
+                
+            <button id="credents" data-aos="fade-left" data-aos-delay="300" 
+            onclick="openCertificate(this)" value="image/serviceletter.jpg">
+                PL/SQL Intern Delivery at VIRTUSA CORPORATION
+                    (April 2023-July 2023)</button>
+
+                    <div id="overlay">
+                        <div class="overlay-content">
+                          <img src="image/serviceletter.jpg" alt="Certificate Image">
+                          <button class="close-button" onclick="closeCertificate()">Close</button>
+                        </div>
+                      </div>    
+                
+                <button id="credents"data-aos="fade-left" data-aos-delay="600" 
+                onclick="openCertificate(this)" value="image/sqlcertifi.jpg" >
+                    Certified on ORACLE DATABASE SQL DEVELOPER</button>
+
+                    <div id="overlay">
+                        <div class="overlay-content">
+                          <img src="image/sqlcertifi.jpg" alt="Certificate Image">
+                          <button class="close-button" onclick="closeCertificate()">Close</button>
+                        </div>
+                      </div>
+
+                <button id="credents" data-aos="fade-left" data-aos-delay="900" 
+                onclick="openCertificate(this)" value="image/plsqlcertifi.jpg">
+                    Certified on ORACLE DATABASE PL/SQL DEVELOPER</button>
+
+                    <div id="overlay">
+                        <div class="overlay-content">
+                          <img src="image/plsqlcertifi.jpg" alt="Certificate Image">
+                          <button class="close-button" onclick="closeCertificate()"></button>
+                        </div>
+                      </div>
+
+                    </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="containr">
+            <h2 data-aos="fade-left">CONTACT</h2>
+            <ul id="contac" data-aos="fade-left" data-aos-delay="300">
+                <li>Mobile : +91 6379707384</li>
+                <li>Email : varsha141503@gmail.com</li>
+            </ul>
+            <!-- Contact form or contact information goes here -->
+            <div class="links"> 
+                <a href="tel:+916379707384"><i class="fa-solid fa-phone" id="phn" data-aos="fade-left" data-aos-delay="600"></i></a>
+                <a href="mailto:varsha141503@gmail.com"><i class="fa-solid fa-envelope" id="env"  data-aos="fade-left"data-aos-delay="900"></i></a>
+                <a href="http://www.linkedin.com/in/varsha-alagesan-874391227"><i class="fa-brands fa-linkedin" id="in"  data-aos="fade-left" data-aos-delay="1200"></i></a>
+            </div>
+       </div>
+    </section>
+
+    <footer>
+        <div class="containr">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+<!--Links-->    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init(
+        {
+        duration: 700,
+        once: false
+        }
+        );
+  </script>
+<!--Links-->
+
+</body>
+</html>
